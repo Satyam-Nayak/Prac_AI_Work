@@ -1,0 +1,9 @@
+<h2>Edit Employee</h2>
+<form action="/employees/{{employee.id}}?_method=PUT" method="POST">
+  <input name="name" value="{{employee.name}}" required><br>
+  <input name="position" value="{{employee.position}}"><br>
+  <input name="department" value="{{employee.department}}"><br>
+  <input name="salary" value="{{employee.salary}}" type="number"><br>
+  <button type="submit">Update</button>
+</form>
+<a href="/employees">Back</a>

@@ -1,0 +1,44 @@
+body {
+  background: #f5f6fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+h2 {
+  color: #2d65a5;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+th, td {
+  border: 1px solid #d7d7d7;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background: #e6ecf5;
+}
+
+a, button {
+  background: #2d65a5;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, button:hover {
+  background: #244c79;
+}
+
+form {
+  margin: 20px 0;
+}
